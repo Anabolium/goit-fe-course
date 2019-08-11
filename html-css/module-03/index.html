@@ -5,52 +5,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Module 03</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:300&display=swap" rel="stylesheet">  
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    
-    <!-- p {...} /* по тегу */ -->
-    <!--<section>
-        <h1>Турагенство</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque magni cumque fugiat hic blanditiis, modi quasi! Minus sequi nobis hic, fugit rem ratione. Eius neque ab praesentium consequatur. Suscipit, eius.</p>
-        <p>cupiditate repellat velit dolor.</p>
-    </section> -->
-    
+    <h1 class="visually-hidden">BEST WEB SITE</h1>
+    <!-- Шапка страницы-->
+    <header class="page-header container">
+        <nav>
+            <ul class="site-navigation">
+                <li><a href="">Lifestyle</a></li>
+                <li><a href="">Photodiary</a></li>
+                <li><a href="">Music</a></li>
+                <li><a href="">Travel</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--Разбиваем страницу на 6 секций досуга-->
+    <main class="container">
+    <section class="leisure">
+        <h2 class="leisure-title visually-hidden">Our leisure</h2>
+        <ul class="leisure-list">
+            <li class="leisure-list-item">
+                <img class="leisure-list-image" src="img/music.jpg" alt="music festival" width="420" height="280">
+                <p class="leisure-head">Lifestyle</p>
+                <p class="leisure-main">More than just a music festival</p>
+                <p class="leisure-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
+            </li>
 
-    <!-- .title {...} /* по классу */ -->
-    <!--<section>
-        <h1>Турагенство</h1>
-        <p class="title">всё для туризма и отдыха</p>
-        <p>А также для заботы о здоровьею</p>
-        <p>
-            <span class="title">Туризм</span> - наша гордость
-        </p>
-    </section> -->
+            <li class="leisure-list-item">
+                <img class="leisure-list-image" src="img/coffe.jpg" alt="cup of coffee" width="419" height="280">
+                <p class="leisure-head">Lifestyle</p>
+                <p class="leisure-main">Life tastes better with coffee</p>
+                <p class="leisure-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
+            </li>
 
-    <!-- p.title {...} /* тег с классом*/ -->
-    <!--  
-        <section>
-            <h1>Турагенство</h1>
-            <p class="title"> Всё для туризма и отдыха в нашем каталоге</p>
-            <p>А также для заботы о здоровье.</p>
-            <p>
-                <span class="title">Туризм</span> - наша гордость!
-            </p>
-        </section> -->
-
-         <!-- #promo {...}  /*по id*/ -->
-    <!--
-        <section>
-            <h1 id="promo">Турагенство</h1>
-            <p class="title"> Всё для туризма и отдыха в нашем каталоге</p>
-            <p>А также для заботы о здоровье.</p>
-            <p>
-                <span class="title">Туризм</span> - наша гордость!
-            </p>
-        </section>
-    -->
-    
-
-
+            <li class="leisure-list-item">
+                <img class="leisure-list-image" src="img/amdreem.jpg" alt="American dream" width="420" height="280">
+                <p class="leisure-head">Photodiary</p>
+                <p class="leisure-main">American dream</p>
+                <p class="leisure-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
+            </li>
+            <li class="leisure-list-item">
+                <img class="leisure-list-image" src="img/alps.jpg" alt="alps" width="419" height="280">
+                <p class="leisure-head">Photodiary</p>
+                <p class="leisure-main">A day exploring the Alps</p>
+                <p class="leisure-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
+            </li>
+            <li class="leisure-list-item">
+                <img class="leisure-list-image" src="img/running.jpg" alt="running song" width="420" height="280">
+                <p class="leisure-head">Lifestyle</p>
+                <p class="leisure-main">Top 10 song for running</p>
+                <p class="leisure-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
+            </li>
+            <li class="leisure-list-item">
+                <img class="leisure-list-image" src="img/winter.jpg" alt="cold winter" width="419" height="280">
+                <p class="leisure-head">Lifestyle</p>
+                <p class="leisure-main">Cold winter days</p>
+                <p class="leisure-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
+            </li>
+        </ul>
+        <button>load more</button>
+    </section>
+    </main>
 </body>
 </html>
