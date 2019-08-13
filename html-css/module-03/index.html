@@ -11,10 +11,9 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <h1 class="visually-hidden">BEST WEB SITE</h1>
     <!-- Шапка страницы-->
-    <header class="page-header container">
-        <nav>
+   <header class="page-header">
+        <nav class="navigation">
             <ul class="site-navigation">
                 <li><a href="">Lifestyle</a></li>
                 <li><a href="">Photodiary</a></li>
@@ -24,53 +23,64 @@
         </nav>
     </header>
     <!--Разбиваем страницу на 6 секций досуга-->
-    <main class="container">
+    <main>
     <section class="leisure">
-        <h2 class="leisure-title visually-hidden">Our leisure</h2>
+        <!--<h2 class="leisure-title visually-hidden">Our leisure</h2> -->
+        <div class="container">
         <ul class="leisure-list">
             <li class="leisure-list-item">
-                <img class="leisure-list-image" src="img/music.jpg" alt="music festival" width="420" height="280">
-                <p class="leisure-head">Lifestyle</p>
-                <p class="leisure-main">More than just a music festival</p>
-                <p class="leisure-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
-            </li>
-
-            <li class="leisure-list-item">
-                <img class="leisure-list-image" src="img/coffe.jpg" alt="cup of coffee" width="419" height="280">
-                <p class="leisure-head">Lifestyle</p>
-                <p class="leisure-main">Life tastes better with coffee</p>
-                <p class="leisure-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
-            </li>
-
-            <li class="leisure-list-item">
-                <img class="leisure-list-image" src="img/amdreem.jpg" alt="American dream" width="420" height="280">
-                <p class="leisure-head">Photodiary</p>
-                <p class="leisure-main">American dream</p>
-                <p class="leisure-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
+                <article>
+                    <img class="leisure-list-image" src="img/music.jpg" alt="music festival" width="420" height="280">
+                    <p class="leisure-head">Lifestyle</p>
+                    <h2 class="leisure-main">More than just a music festival</h2>
+                    <p class="leisure-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
+                </article>
             </li>
             <li class="leisure-list-item">
-                <img class="leisure-list-image" src="img/alps.jpg" alt="alps" width="419" height="280">
-                <p class="leisure-head">Photodiary</p>
-                <p class="leisure-main">A day exploring the Alps</p>
-                <p class="leisure-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
+                    <article>
+                        <img class="leisure-list-image" src="img/coffe.jpg" alt="cup of coffee" width="419" height="280">
+                        <p class="leisure-head">Lifestyle</p>
+                        <h2 class="leisure-main">Life tastes better with coffee</h2>
+                        <p class="leisure-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
+                    </article>
             </li>
             <li class="leisure-list-item">
-                <img class="leisure-list-image" src="img/running.jpg" alt="running song" width="420" height="280">
-                <p class="leisure-head">Lifestyle</p>
-                <p class="leisure-main">Top 10 song for running</p>
-                <p class="leisure-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
+                    <article>
+                        <img class="leisure-list-image" src="img/amdreem.jpg" alt="American dream" width="420" height="280">
+                        <p class="leisure-head">Photodiary</p>
+                        <h2 class="leisure-main">American dream</h2>
+                        <p class="leisure-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
+                    </article>
             </li>
             <li class="leisure-list-item">
-                <img class="leisure-list-image" src="img/winter.jpg" alt="cold winter" width="419" height="280">
-                <p class="leisure-head">Lifestyle</p>
-                <p class="leisure-main">Cold winter days</p>
-                <p class="leisure-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
+                    <article>
+                        <img class="leisure-list-image" src="img/alps.jpg" alt="alps" width="419" height="280">
+                        <p class="leisure-head">Photodiary</p>
+                        <h2 class="leisure-main">A day exploring the Alps</h2>
+                        <p class="leisure-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
+                    </article>
+            </li>
+            <li class="leisure-list-item">
+                    <article>
+                        <img class="leisure-list-image" src="img/running.jpg" alt="running song" width="420" height="280">
+                        <p class="leisure-head">Lifestyle</p>
+                        <h2 class="leisure-main">Top 10 song for running</h2>
+                        <p class="leisure-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
+                    </article>
+            </li>
+            <li class="leisure-list-item">
+                    <article>
+                        <img class="leisure-list-image" src="img/winter.jpg" alt="cold winter" width="419" height="280">
+                        <p class="leisure-head">Lifestyle</p>
+                        <h2 class="leisure-main">Cold winter days</h2>
+                        <p class="leisure-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
+                    </article>
+                    <button class="button">load more</button>
             </li>
         </ul>
-        </section>
-        <section>
-            <button class="button">load more</button>
-        </section>
+        </div>
+    </section>
+    
     </main>
 </body>
 </html>

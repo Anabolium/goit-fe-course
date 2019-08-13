@@ -1,32 +1,32 @@
 /*Не совсем понятная штука*/
-html {
-    box-sizing: border-box;
-}
+html{
+    box-sizing:border-box;}
 *,
 *::before,
 *::after {
-    box-sizing: inherit;
-}
+    box-sizing: inherit;}
 
-body {
+body{
+    margin: 0;
     font-family: 'Playfair Display', Arial, serif;
-    color: #626262;
-} 
+    color: #626262;} 
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;}
+
 .container {
-    width: 901px;
-    margin: 0 auto;
-}
-/*site navigation ставим в строку навигацию сайта*/
-.site-navigation li {
-    display: inline-block;
-}
-.site-navigation li:not(:last-child) {
-    margin-right: 95px;
-}
-.page-header {
-    margin-top: 73px;
-    margin-bottom: 99px;
-}
+    width: 950px;
+    margin: 0 auto;}
+    .page-header {
+        display: block;
+        text-align: inherit;
+        padding-top: 73px;
+        padding-bottom: 99px;
+       
+    }
+
+
 
 .leisure-head {
     font-family: 'Ubuntu', sans-serif;
@@ -35,68 +35,59 @@ body {
     line-height: 17px;
     text-transform: uppercase;
     margin-top: 31px;
-    margin-bottom: 29px;
-}
+    margin-bottom: 29px;}
+
 .site-navigation {
 display: inline-block;
 vertical-align: middle;
-width: 901px;
+width: 940px;
 margin: 0;
 padding: 0;
-font-size: 14px;
 list-style: none;
 text-align: center;
+font-size: 0;
 }
+/*site navigation ставим в строку навигацию сайта*/
+.site-navigation li {
+    display: inline-block;}
+.site-navigation li:not(:last-child) {
+    margin-right: 95px;}
+.leisure-list-image {
+    margin-bottom: 30px;}
+
 .site-navigation a {
     font-weight: 400;
     text-transform: uppercase;
     text-decoration: none;
     line-height: 24px;
-}
+    font-size: 14px;
+    }
 .leisure-main {
+    margin: 0;
     font-size: 30px;
     line-height: 36px;
-    margin-bottom: 33px;
-}
+    margin-bottom: 33px}
 .leisure-description {
+    margin: 0;
     font-size: 14px;
-    line-height: 24px;
-    margin-bottom: 130px;
-}
+    /*line-height: 24px;*/
+    /*margin-bottom: 130px;*/}
 /* LEISURE LIST */
 .leisure-list {
     list-style: none;
-    margin: 0;
-    padding: 0;
-    font-size: 0;
-}
+    font-size: 0;}
 
 .leisure-list-item {
     display: inline-block;
-    width: 420px;
-    margin-right:61px; 
-}
-.leisure-list-item:nth-child(2n) {
-    margin-right: 0px;
-    }
+    width: 420px;}
 
+.leisure-list-item:not(:nth-child(2n)) {
+    margin-right:61px;}
+.leisure-list-item:nth-child(-n + 2) {
+    margin-bottom:61px;}
 
-/*Прячем h1 h2*/
-.visually-hidden:not(:focus):not(:active),
-input[type="checkbox"].visually-hidden,
-input[type="radio"].visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
 .button {
+    display: inline-block;
     font-size: 20px;
     line-height: 24px;
     text-align: center;
@@ -104,6 +95,5 @@ input[type="radio"].visually-hidden {
     margin-right: auto;
     position: absolute;
     left: 0; right: 0;
-    margin-top: 52px;
-    margin-bottom: 71px;
+       
 }
