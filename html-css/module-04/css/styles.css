@@ -249,6 +249,7 @@ li.features-list-item:hover span {
   }
 
 .image-news {
+  margin: 0;
   margin-bottom: 15px;
 }
 
