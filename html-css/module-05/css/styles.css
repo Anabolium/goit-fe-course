@@ -43,7 +43,7 @@ img {
 .site-logo {
   display: inline-block;
   font-size: 30px;
-  font-weight: light;
+  font-weight: lighter;
   color: #555252;
   text-transform: uppercase;
   text-decoration: none;
@@ -91,12 +91,15 @@ img {
 }
 
 .slider {
-   position: relative;
-  width: 1600px;
-  object-fit: cover;
+  position: relative;
+  width: 100%;
+  /*object-fit: cover;*/
   margin: auto;
   margin-bottom: 100px;
-  box-shadow: 0 0 2px 2px rgba (0, 0, 0, 0.3);
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.3);
+}
+.slider-image {
+  width: 100%;
 }
 
 .slider-ctrl {
