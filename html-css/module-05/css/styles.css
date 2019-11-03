@@ -48,9 +48,12 @@ img {
   text-transform: uppercase;
   text-decoration: none;
   font-family: 'Roboto', sans-serif;
+  font-weight: light;
 }
 .site-logo span {
   color: #1abc9c;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
 }
 
 .site-navigation {
@@ -64,7 +67,7 @@ img {
   color: #0f0101;
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
-  font-weight: 900;
+  font-weight: bold;
  
 }
 
@@ -100,6 +103,7 @@ img {
 }
 .slider-image {
   width: 100%;
+  filter: brightness(0.522);
 }
 
 .slider-ctrl {
@@ -120,12 +124,14 @@ img {
   left: 0;
   font-weight: lighter;
   text-align: left;
+  opacity: 0.651;
 }
 
 .slider-ctrl-next {
   right: 0;
   font-weight: lighter;
   text-align: right;
+  opacity: 0.651;
 }
 
 .inf-slider {
@@ -142,27 +148,29 @@ img {
 }
 
 p.inf-slider {
-    width: 790px;
-    font-family: "Roboto Black";
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
 }
-
-.inf-slider span{
+ 
+.inf-slider span {
     display: block;
     font-size: 24px;
     line-height: 54px;
-    font-family: "Roboto Black";
+    font-family: "Roboto";
+    font-weight: 300;
 }
 
 .slider button:hover,
 .slider button:focus {
   background-color: rgb(78, 198, 171);
-  opacity: 0.651;
+  opacity: 1;
 }
 
 .section-title {
   margin: 0;
   display: block;
   font-family: 'Roboto', sans-serif;
+  font-weight: 900;
   font-size: 48px;
   font-weight: regular;
   color: #555252;
@@ -235,6 +243,7 @@ li.features-list-item:hover span {
   width: 165px;
   display: inline-block;
   top: 50%;
+  left: 50%;
   transform: translate(-50%, -50%);
   opacity: 0;
 }
@@ -256,7 +265,7 @@ li.features-list-item:hover span {
 }
 .card-buttons {
   float: left;
-  
+   
 }
 
 .like, .switch, .remind {
@@ -274,9 +283,9 @@ li.features-list-item:hover span {
   background-image: url(../img/buttons/heart.png); 
   opacity: 0.7;
   background-color: transparent;
+  margin: 0 7px 3px 0;
   
-  
-}
+ }
 .like:hover  {
   background-color: #1abc9c; 
   opacity: 1;
@@ -286,6 +295,7 @@ li.features-list-item:hover span {
   background-image: url(../img/buttons/lines.png);
   opacity: 0.7;
   background-color: transparent;
+  margin: 0 7px 3px 0;
   
 }
 .switch:hover  {
@@ -296,6 +306,7 @@ li.features-list-item:hover span {
   background-image: url(../img/buttons/watch.png); 
   opacity: 0.7;
   background-color: transparent;
+  margin: 0 0 3px 0;
 }
 .remind:hover  {
   background-color: #1abc9c; 
@@ -312,10 +323,11 @@ li.features-list-item:hover span {
   background-position: left;
   background-image: url(../img/buttons/basket.png);
   border-color: #ffffff;
-  opacity: 1;
   color: #ffffff;
+  font-family: 'Roboto', sans-serif;
   font-weight: bold;
   background-color: transparent;
+  text-transform: uppercase;
   } 
 
 .add:hover  {
@@ -372,7 +384,7 @@ display: block;
   color: #fefefe;
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
-  font-weight: 900;
+  font-weight: normal;
   text-align: center;
   line-height: 88px;
 }
