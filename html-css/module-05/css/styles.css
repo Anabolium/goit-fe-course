@@ -109,7 +109,7 @@ img {
 .slider-ctrl {
   position: absolute;
   border: none;
-  display: inline-block;
+  /*display: inline-block;*/
   width: 104px;
   height: 104px;
   background-color:rgb(26, 188, 156);
@@ -241,7 +241,7 @@ li.features-list-item:hover span {
 .overlayCard {
   position: absolute;
   width: 165px;
-  display: inline-block;
+  /*display: inline-block;*/
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -260,7 +260,7 @@ li.features-list-item:hover span {
   width: 100%;
   list-style: none;
   padding: 0;
-  display: inline-block;
+ /* display: inline-block;*/
   margin: 0 auto;
 }
 .card-buttons {
@@ -388,6 +388,6 @@ display: block;
   text-align: center;
   line-height: 88px;
 }
-.footer span {
+.footer-span {
   color: #46bfa9;
 }
