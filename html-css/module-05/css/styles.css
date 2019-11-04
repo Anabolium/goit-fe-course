@@ -7,26 +7,22 @@ html {
 *::after {
   box-sizing: inherit;
 }
-
 body {
   font-family: "Raleway", "Arial", sans-serif;
   color: #6c7279;
   font-size: 14px;
   line-height: 21px;
 }
-
 img {
   display: block;
   max-width: 100%;
   height: auto;
 }
-
 .clearfix::after {
   display: table;
   content: "";
   clear: both;
 }
-
 .container {
   position: relative;
   width: 1110px;
@@ -35,11 +31,9 @@ img {
 .page-header {
   margin-bottom: 0px;
 }
-
 .page-nav {
   padding: 38px 0;
 }
-
 .site-logo {
   display: inline-block;
   font-size: 30px;
@@ -55,7 +49,6 @@ img {
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
 }
-
 .site-navigation {
   float: right;
   width: /*465*/ 460px;
@@ -68,31 +61,24 @@ img {
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   font-weight: bold;
- 
 }
-
 .site-navigation li {
   float: left;
 }
-
 .site-navigation li:not(:last-child) {
   margin-right: 25px;
 }
-
 .site-navigation a {
   display: block;
   color: black;
   font-weight: 700;
   text-transform: uppercase;
   text-decoration: none;
-  /*line-height: 16px;*/
 }
-
 .site-navigation a:hover,
 .site-navigation a:focus {
   color: #1abc9c;
 }
-
 .slider {
   position: relative;
   width: 100%;
@@ -113,7 +99,6 @@ img {
   width: 1110px;
   margin: 0 auto;
 }
-
 .slider-ctrl {
   position: absolute;
   border: none;
@@ -125,24 +110,19 @@ img {
   transform: translateY(-50%);
   font-size: 100px;
   color: #ffffff;
-
 }
-
 .slider-ctrl-prev {
   left: 0;
   font-weight: lighter;
   text-align: left;
   opacity: 0.651;
 }
-
 .slider-ctrl-next {
   right: 0;
   font-weight: lighter;
   text-align: right;
   opacity: 0.651;
-  
 }
-
 .inf-slider {
   box-sizing: content-box;
   margin: 0;
@@ -156,12 +136,10 @@ img {
   text-transform: uppercase;
   color: #ffffff;
 }
-
 p.inf-slider {
   font-family: 'Roboto', sans-serif;
   font-weight: 900;
-}
- 
+} 
 .inf-slider span {
     display: block;
     font-size: 24px;
@@ -169,13 +147,11 @@ p.inf-slider {
     font-family: "Roboto";
     font-weight: 300;
 }
-
 .slider button:hover,
 .slider button:focus {
   background-color: rgb(78, 198, 171);
   opacity: 1;
 }
-
 .section-title {
   margin: 0;
   display: block;
@@ -197,19 +173,15 @@ p.inf-slider {
   margin-left: auto;
   margin-right: auto;
   margin-top: 28px;
- /* margin-bottom: 93px;*/
 }
-
 .features {
   margin-bottom: 120px;
 }
-
 .features-list {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-
 .features-list-item {
   float: left;
   width: 255px;
@@ -219,25 +191,20 @@ p.inf-slider {
   text-align: center;
   background-color: #e9f0fd;
 }
-
 .features-list-item p {
   margin: 0px;
   padding: 0px;
 }
-
 li.features-list-item:hover p {
   background-color: #1abc9c;
 }
-
 li.features-list-item:hover span {
   background-color: #7fd9c7;
 }
-
 .card {
   position: relative;
   width:255px;
 }
-
 .overlay {
   position: absolute;
   width:245px;
@@ -267,19 +234,18 @@ li.features-list-item:hover span {
   opacity: 1;
 }
 .card-actions {
-  width: 100%;
+  width: auto;
   list-style: none;
   padding: 0;
- /* display: inline-block;*/
   margin: 0 auto;
 }
 .card-buttons {
-  float: left;
-   
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
-
 .like, .switch, .remind {
-  float: left;
   margin: 0;
   padding: 0;
   width: 50px;
@@ -287,26 +253,26 @@ li.features-list-item:hover span {
   background-repeat: no-repeat;
   background-position: center;
   border-color: #ffffff;
-  }
-
+}
 .like {
   background-image: url(../img/buttons/heart.png); 
   opacity: 0.7;
   background-color: transparent;
-  margin: 0 7px 3px 0;
-  
- }
+  position: absolute;
+  left: 0%;
+  transform: translate(0%, -160%);
+}
 .like:hover  {
   background-color: #1abc9c; 
   opacity: 1;
 }
- 
-.switch {
+ .switch {
   background-image: url(../img/buttons/lines.png);
   opacity: 0.7;
   background-color: transparent;
-  margin: 0 7px 3px 0;
-  
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -160%);
 }
 .switch:hover  {
   background-color: #1abc9c; 
@@ -316,17 +282,15 @@ li.features-list-item:hover span {
   background-image: url(../img/buttons/watch.png); 
   opacity: 0.7;
   background-color: transparent;
-  margin: 0 0 3px 0;
+  position: absolute;
+  right: 50%;
+  transform: translate(65%, -160%);
 }
 .remind:hover  {
   background-color: #1abc9c; 
   opacity: 1;
 }
-
 .add {
-  float: left;
-  margin: 0;
-  padding: 0;
   width: 165px;
   height: 50px;
   background-repeat: no-repeat;
@@ -338,13 +302,11 @@ li.features-list-item:hover span {
   font-weight: bold;
   background-color: transparent;
   text-transform: uppercase;
-  } 
-
+} 
 .add:hover  {
   background-color: #323232; 
   opacity: 1;
 }
-
 .title {
   margin: 0;
   height: 40px;
@@ -357,7 +319,6 @@ li.features-list-item:hover span {
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
 }
-
 .price {
   display: block;
   float: right;
@@ -373,17 +334,14 @@ li.features-list-item:hover span {
   background-color: #8c8c8c;
   font-family: 'Roboto', sans-serif;
 }
-
 .features-list-item:nth-child(4n) {
   margin-right: 0;
 }
-
 .features-list-item:nth-last-child(-n + 3) {
   margin-bottom: 0;
 }
-
 .footer {
-display: block;
+  display: block;
   width: 100%;
   height: 88px;
   margin: 0;
