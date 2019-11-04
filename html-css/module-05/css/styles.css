@@ -105,6 +105,14 @@ img {
   width: 100%;
   filter: brightness(0.522);
 }
+.slider-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1110px;
+  margin: 0 auto;
+}
 
 .slider-ctrl {
   position: absolute;
@@ -132,15 +140,17 @@ img {
   font-weight: lighter;
   text-align: right;
   opacity: 0.651;
+  
 }
 
 .inf-slider {
+  box-sizing: content-box;
   margin: 0;
   position: absolute;
-  top: 45%;
+  top: 50%;
   left: 50%;
-  transform: translate(-48%, -50%);
-  max-width: 790px;
+  transform: translate(-50%, -50%);
+  max-width: 900px;
   font-size: 60px;
   line-height: 80px;
   text-transform: uppercase;
