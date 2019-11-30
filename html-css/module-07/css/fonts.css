@@ -1,0 +1,43 @@
+@font-face {
+    font-family: "Parisienne"; /* instead "Wisdom script" */
+    src: url(../font/Parisienne-Regular.woff) format("woff"),
+      url(../font/Parisienne-Regular.woff2) format("woff2");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Montserrat-Regular";
+  
+    src: url(../font/Montserrat-Regular.woff) format("woff"),
+      url(../font/Montserrat-Regular.woff2) format("woff2");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Montserrat-Bold";
+  
+    src: url(../font/Montserrat-Bold.woff) format("woff"),
+      url(../font/Montserrat-Bold.woff2) format("woff2");
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "RobotoSlab";
+  
+    src: url(../font/RobotoSlab-Regular.woff) format("woff"),
+      url(../font/RobotoSlab-Regular.woff2) format("woff2");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Sanchez"; /* instead "Droid italic" */
+  
+    src: url(../font/Sanchez-Italic.woff) format("woff"),
+      url(../font/Sanchez-Italic.woff2) format("woff2");
+    font-weight: normal;
+    font-style: italic;
+  }
