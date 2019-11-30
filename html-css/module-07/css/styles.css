@@ -132,14 +132,17 @@ article {
 
 .ecommerce::before {
   background: url(../img/icon/Icon-Basket.png) no-repeat;
+  background-position: center;
 }
 
 .responsive_web::before {
   background: url(../img/icon/Icon-Laptop.png) no-repeat;
+  background-position: center;
 }
 
 .web_security::before {
   background: url(../img/icon/Icon-Locked.png) no-repeat;
+  background-position: center;
 }
 
 article h3 {
