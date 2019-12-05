@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Roboto-Light";
+
+  src: url(../font/Roboto-Light.woff) format("woff"),
+    url(../font/Roboto-Light.woff2) format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat-Bold";
+
+  src: url(../font/Montserrat-Bold.woff) format("woff"),
+    url(../font/Montserrat-Bold.woff2) format("woff2");
+  font-weight: 900;
+  font-style: normal;
+}
