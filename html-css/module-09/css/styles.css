@@ -34,10 +34,9 @@ nav {
   margin-bottom: 125px;
 }
 
-nav a {
+.button {
   font-family: "Montserrat-Bold";
   font-size: 14px;
-  color: var(--white-color);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -45,17 +44,25 @@ nav a {
   height: 36px;
   border: 2px solid var(--white-invisible-color);
   border-radius: 18px;
-  transition: 0.2s linear;
+  cursor: pointer;
+  outline-style: none;
+  outline: none;
+  background: none;
+  color: white;
 }
 
-nav a:hover {
+button:focus {
+  outline-style: none;
+}
+
+nav .button:hover {
   text-decoration: none;
   color: var(--white-color);
   border-color: var(--white-color);
   transition: 0.2s linear;
 }
 
-nav abbr::first-letter {
+header button::first-letter {
   text-transform: uppercase;
 }
 
@@ -67,7 +74,7 @@ h1 {
 }
 
 h1 a {
-  /* text-decoration: none; */
+
   font-family: "Montserrat-Bold";
   font-size: 20px;
   color: var(--white-color);
@@ -101,33 +108,26 @@ header p {
 header p::first-letter {
   text-transform: uppercase;
 }
-
-/* Header title button */
-
-.button {
-  text-align: center;
-}
-
-button:focus {
-  outline-style: none;
-}
-
-header button {
+.partners_link a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 280px;
   height: 40px;
   border-style: none;
+  background: var(--red-color);
+  border: 2px solid var(--red-color);
   border-radius: 20px;
-  background-color: var(--red-color);
   cursor: pointer;
   font-family: "Montserrat-Bold";
-  font-size: 14px;
-  color: var(--white-color);
+  color: white;
+  text-align: center;
+  line-height: 40px;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 138px;
-}
-
-header button::first-letter {
-  text-transform: uppercase;
-}
+  text-decoration: none;
+  }
 
 /* Main section */
 
@@ -150,32 +150,6 @@ main h2::first-letter {
   max-width: 260px;
   margin: 0 auto 30px;
   position: relative;
-}
-
-.partner_card::before {
-  content: "";
-  display: block;
-  background-position-x: center;
-  width: 122px;
-  height: 122px;
-  margin: 0 auto;
-  border-radius: 50%;
-}
-
-.card_1::before {
-  background: url(../img/partner_card/p1.png) no-repeat;
-}
-
-.card_2::before {
-  background: url(../img/partner_card/p2.png) no-repeat;
-}
-
-.card_3::before {
-  background: url(../img/partner_card/p3.png) no-repeat;
-}
-
-.card_4::before {
-  background: url(../img/partner_card/p4.png) no-repeat;
 }
 
 .partner_card h3 {
@@ -221,8 +195,7 @@ main h2::first-letter {
 }
 
 .card_3 a::after {
-  background: url(../img/social_icon/3.png) no-repeat
-    var(--ligthgreen-color) center;
+  background: url(../img/social_icon/3.png) no-repeat var(--ligthgreen-color) center;
 }
 
 .card_4 a::after {
@@ -230,26 +203,23 @@ main h2::first-letter {
     center;
 }
 
-/* Main button */
-
-.button {
-  text-align: center;
-}
-
-main button {
+.partners_link_main a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 280px;
   height: 40px;
   border-style: none;
-  background: none;
+  background: var(--white-color);
   border: 2px solid var(--red-color);
   border-radius: 20px;
   cursor: pointer;
   font-family: "Montserrat-Bold";
-  font-size: 14px;
   color: var(--red-color);
-  margin-bottom: 57px;
-}
-
-main button::first-letter {
-  text-transform: uppercase;
+  text-align: center;
+  line-height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  text-decoration: none;
 }
