@@ -1,0 +1,8 @@
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+    header {
+      width: 100%;
+      background: linear-gradient(#f38181e6, #fce38ae6),
+        url(../img/header/bg@2x.png) no-repeat center/cover;
+      margin-bottom: 46px;
+    }
+  }
